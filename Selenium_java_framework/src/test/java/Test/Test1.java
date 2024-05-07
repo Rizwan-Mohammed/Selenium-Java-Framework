@@ -1,4 +1,4 @@
-package testPackage;
+package Test;
 
 import mainPackage.Select_browser;
 
@@ -8,6 +8,7 @@ public class Test1 {
 		
 	Select_browser obj = new Select_browser();
 	obj.chromeBrowser();
+	
 	}
 	
 }
