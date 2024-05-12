@@ -51,7 +51,7 @@ public class ExtentReportsPractice {
 		
 		
 		// writing down the 2nd google test
-ExtentTest googleTestAgain = extent.createTest("Testing google 2");
+		ExtentTest googleTestAgain = extent.createTest("Testing google 2");
 		
 		System.setProperty("webdriver.chromedriver.driver", projectPath+"Selenium_java_framework/Selenium_java_framework/Driver/ChromeDriver");
 		driver = new ChromeDriver();
@@ -74,6 +74,9 @@ ExtentTest googleTestAgain = extent.createTest("Testing google 2");
 		 
 		//calling flush for the extent writes everything to the log file.
 		extent.flush();
+		
+		
+		// added this comment to newly created branch and not master, will save and merge and commit to see if master has it
 		
 	}
 	
