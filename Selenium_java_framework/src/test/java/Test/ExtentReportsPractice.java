@@ -20,6 +20,7 @@ public class ExtentReportsPractice {
 		// Creates ExtentReports and attach reporter(s)
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("riz extent report.html"); // give file name in colon
 		ExtentReports extent = new ExtentReports();
+	
 				
 		// creates a toggle for the given test, adds all logs under it
 		extent.attachReporter(htmlReporter);
