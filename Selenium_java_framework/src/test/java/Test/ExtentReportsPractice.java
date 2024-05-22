@@ -40,7 +40,7 @@ public class ExtentReportsPractice {
 		driver.findElement(By.cssSelector("div.L3eUgb:nth-child(2) div.o3j99.ikrT4e.om7nvf:nth-child(3) div:nth-child(1) div.A8SBwf:nth-child(1) div.FPdoLc.lJ9FBc:nth-child(5) center:nth-child(1) > input.gNO89b")).sendKeys(Keys.RETURN);
 		googleTest.pass("the search button was entered using the return");
 		
-		
+		// closing the browser here
 		driver.close();
 		driver.quit();
 		googleTest.pass("test was completed");
