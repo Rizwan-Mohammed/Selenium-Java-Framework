@@ -31,7 +31,7 @@ public class ExtentReportsPractice {
 		System.setProperty("webdriver.chromedriver.driver", projectPath+"Selenium_java_framework/Selenium_java_framework/Driver/ChromeDriver");
 		driver = new ChromeDriver();
 		googleTest.log(Status.INFO, "starting the test");
-		driver.get("https://google.ca");
+		driver.get("https://google.ca"); // opening the browser....
 		
 		
 		driver.findElement(By.name("q")).sendKeys("this is extenreport test");
@@ -71,6 +71,7 @@ public class ExtentReportsPractice {
 		driver.quit();
 		googleTestAgain.pass("test was completed");
 		googleTestAgain.info("test completed successfully");
+		googleTestAgain.info("test completed successfully 1");
 		
 		 
 		//calling flush for the extent writes everything to the log file.
