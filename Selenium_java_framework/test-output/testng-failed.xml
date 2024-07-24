@@ -3,18 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test.ExtentReportWithTestNG">
+      <class name="Test.shopClueTest.Test4_RobotClass">
         <methods>
-          <include name="testNGTest"/>
-          <include name="tearDownTest1"/>
-          <include name="failedTestNGTest"/>
-          <include name="teardown"/>
-          <include name="setupTest1"/>
-          <include name="setupTest2"/>
-          <include name="setup"/>
-          <include name="tearDownTest2"/>
+          <include name="RobotClassTest"/>
+          <include name="setUpBrowserAndPage"/>
+          <include name="tearDownBrowser"/>
+          <include name="flushExtentReport"/>
+          <include name="extentReportSetup"/>
         </methods>
-      </class> <!-- Test.ExtentReportWithTestNG -->
+      </class> <!-- Test.shopClueTest.Test4_RobotClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -14,11 +14,11 @@ public class GoogleSearchTest {
 	public static void main(String[] args) {
 		
 	System.out.println(projectPath);
-	googleSearchTest1();
+	//googleSearchTest1();
 	
 	}
 	
-	public static void googleSearchTest1() {
+	public void googleSearchTest1() {
 		System.setProperty("webdriver.chromedriver.driver", projectPath+"/Driver/ChromeDriver/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://google.ca");
