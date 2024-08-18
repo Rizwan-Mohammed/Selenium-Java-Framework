@@ -31,8 +31,6 @@ public class ExtentReportWithTestNG {
 		extent = new ExtentReports();
 		
 		extent.attachReporter(htmlReporter);
-		
-		
 	}
 	@BeforeTest
 	public void setupTest1() {
